@@ -1,0 +1,33 @@
+main.Main {
+  width: calc(100% - 2 * 20px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+main.Main div div.ResourcesElement {
+  width: 330px;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 225, 255) 0%,
+    rgb(204, 0, 255) 100%
+  );
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.25s;
+  font-size: 16px;
+}
+
+main.Main div div.ResourcesElement:hover {
+  margin-left: 20px;
+  font-size: 15px;
+}

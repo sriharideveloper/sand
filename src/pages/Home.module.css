@@ -1,0 +1,57 @@
+main.Main {
+  width: calc(100% - 2 * 20px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+main.Main section {
+  display: flex;
+  flex-direction: column;
+  width: calc(4 * 16vw);
+  gap: 5px;
+  font-size: 12px;
+  color: #430fd0;
+}
+
+main.Main div {
+  width: 250px;
+  word-wrap: break-word;
+}
+
+main.Main div p {
+  background: rgb(0, 156, 255);
+  background: radial-gradient(
+    circle,
+    rgb(228, 21, 219) 0%,
+    rgb(229, 74, 63) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+main.Main video {
+  width: calc(4 * 16vw);
+  height: calc(4 * 9vw);
+  outline: none;
+  border: none;
+}
+
+main.Main h2 big b {
+  color: transparent;
+  background: radial-gradient(
+    circle,
+    rgb(229, 74, 63) 0%,
+    rgb(228, 21, 219) 100%
+  );
+  background-clip: text;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Main {
+    flex-direction: column;
+  }
+}

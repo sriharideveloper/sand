@@ -1,0 +1,20 @@
+main.Main {
+  width: calc(100% - 2 * 20px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+main.Main div img {
+  width: 180px;
+  height: 400px;
+  box-shadow: 0 0 20px rgb(244, 164, 96);
+}
+
+main.Main div.MainContent {
+  width: 45%;
+  word-wrap: break-word;
+}

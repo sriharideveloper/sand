@@ -1,0 +1,58 @@
+nav.Navbar {
+  width: calc(100% - 2 * 10px);
+  height: 60px;
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(12, 11, 11, 0.8);
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 30px rgb(244, 164, 96);
+  position: fixed;
+  backdrop-filter: blur(10px);
+}
+
+nav.Navbar h1 {
+  font-family: "Aboreto", cursive;
+  font-size: 30px;
+  color: #f4a460;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav.Navbar ul.NavbarNavbarItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav.Navbar ul.NavbarNavbarItems li {
+  list-style: none;
+  color: #f5f5f5;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+nav.Navbar ul.NavbarNavbarItems li:hover {
+  color: #ffd700;
+  margin-bottom: 2px;
+}
+
+nav.Navbar ul.NavbarNavbarItems li:active {
+  color: #fff;
+}
+
+nav.Navbar ul.NavbarNavbarItems li a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav.Navbar {
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+}
