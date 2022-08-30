@@ -9,7 +9,7 @@ export default function Home() {
         <main className={styles.Main}>
           <section>
             <video
-              autoplay="true"
+              autoPlay={true}
               controls
               muted
               loop
